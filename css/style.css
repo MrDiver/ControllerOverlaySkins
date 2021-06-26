@@ -1,18 +1,27 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(https://raw.githubusercontent.com/MrDiver/ControllerOverlaySkins/master/export/base.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/base.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
 
+.xbox .stick {
+    position: absolute;
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/stick.png);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+/*
 .xbox.white {
-    background: url(https://raw.githubusercontent.com/MrDiver/ControllerOverlaySkins/master/export/base.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/base.png);
 }
 
 .xbox.disconnected {
-    background: url(xbox-assets/disconnected.svgz);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/disconnected.svg);
 }
 
 .xbox.disconnected div {
@@ -29,7 +38,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(xbox-assets/trigger.svgz);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/trigger.png);
     opacity: 0;
 }
 
@@ -46,7 +55,7 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(xbox-assets/bumper.svgz);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/bumper.svg);
     opacity: 0;
 }
 
@@ -74,7 +83,7 @@
 
 .xbox .quadrant {
     position: absolute;
-    background: url(xbox-assets/quadrant.svgz);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/quadrant.svg);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -111,7 +120,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(xbox-assets/start-select.svgz);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -140,7 +149,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(xbox-assets/abxy.svgz);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/abxy.svg);
     width: 48px;
     height: 48px;
 }
@@ -183,14 +192,6 @@
     left: 144px;
 }
 
-.xbox .stick {
-    position: absolute;
-    background: url(https://raw.githubusercontent.com/MrDiver/ControllerOverlaySkins/master/export/stick.svg);
-    background-position: -85px 0;
-    height: 83px;
-    width: 83px;
-}
-
 .xbox .stick.pressed {
     background-position: 0 0;
 }
@@ -214,7 +215,7 @@
 }
 
 .xbox .face {
-    background: url(xbox-assets/dpad.svgz);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/dpad.svg);
     position: absolute;
     opacity: 0;
 }
@@ -261,5 +262,5 @@
 .xbox {
     background: no-repeat center;
 }
-
+*/
 /*END Xbox One Controller Styling*/
