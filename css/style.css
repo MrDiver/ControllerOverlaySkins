@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(export/base.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/base.svg);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -8,11 +8,11 @@
 }
 
 .xbox.white {
-    background: url(export/base.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/base.svg);
 }
 
 .xbox.disconnected {
-    background: url(export/disconnected.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/disconnected.svg);
 }
 
 .xbox.disconnected div {
@@ -29,7 +29,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(export/trigger.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/trigger.svg);
     opacity: 0;
 }
 
@@ -46,7 +46,7 @@
 .xbox .bumper {
     width: 170px;
     height: 61px;
-    background: url(export/bumper.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/bumper.svg);
     opacity: 0;
 }
 
@@ -74,7 +74,7 @@
 
 .xbox .quadrant {
     position: absolute;
-    background: url(export/quadrant.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/quadrant.svg);
     height: 45px;
     width: 45px;
     top: 258px;
@@ -111,7 +111,7 @@
 }
 
 .xbox .back, .xbox .start {
-    background: url(export/start-select.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/start-select.svg);
     width: 33px;
     height: 33px;
     opacity: 0;
@@ -140,7 +140,7 @@
 
 .xbox .button {
     position: absolute;
-    background: url(export/abxy.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/abxy.svg);
     width: 48px;
     height: 48px;
 }
@@ -185,7 +185,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(export/stick.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/stick.svg);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
@@ -214,7 +214,7 @@
 }
 
 .xbox .face {
-    background: url(export/dpad.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/dpad.svg);
     position: absolute;
     opacity: 0;
 }
