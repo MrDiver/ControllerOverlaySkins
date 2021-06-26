@@ -1,6 +1,6 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(https://raw.githubusercontent.com/MrDiver/ControllerOverlaySkins/master/export/base.png);
+    background: url(https://raw.githubusercontent.com/MrDiver/ControllerOverlaySkins/master/export/base.svg);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
@@ -8,7 +8,7 @@
 }
 
 .xbox.white {
-    background: url(https://raw.githubusercontent.com/MrDiver/ControllerOverlaySkins/master/export/base.png);
+    background: url(https://raw.githubusercontent.com/MrDiver/ControllerOverlaySkins/master/export/base.svg);
 }
 
 .xbox.disconnected {
@@ -185,7 +185,7 @@
 
 .xbox .stick {
     position: absolute;
-    background: url(https://raw.githubusercontent.com/MrDiver/ControllerOverlaySkins/master/export/stick.png);
+    background: url(https://raw.githubusercontent.com/MrDiver/ControllerOverlaySkins/master/export/stick.svg);
     background-position: -85px 0;
     height: 83px;
     width: 83px;
