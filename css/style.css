@@ -1,14 +1,23 @@
 /*BEGIN Xbox One Controller Styling*/
 .controller.xbox {
-    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/base.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/base.png);
     height: 630px;
     width: 750px;
     /*    margin-left: -375px;
         margin-top: -285px;*/
 }
 
+.xbox .stick {
+    position: absolute;
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/stick.png);
+    background-position: -85px 0;
+    height: 83px;
+    width: 83px;
+}
+
+/*
 .xbox.white {
-    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/base.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/base.png);
 }
 
 .xbox.disconnected {
@@ -29,7 +38,7 @@
 .xbox .trigger {
     width: 88px;
     height: 121px;
-    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/trigger.svg);
+    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/trigger.png);
     opacity: 0;
 }
 
@@ -183,14 +192,6 @@
     left: 144px;
 }
 
-.xbox .stick {
-    position: absolute;
-    background: url(https://mrdiver.github.io/ControllerOverlaySkins/export/stick.svg);
-    background-position: -85px 0;
-    height: 83px;
-    width: 83px;
-}
-
 .xbox .stick.pressed {
     background-position: 0 0;
 }
@@ -261,5 +262,5 @@
 .xbox {
     background: no-repeat center;
 }
-
+*/
 /*END Xbox One Controller Styling*/
